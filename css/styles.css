@@ -592,7 +592,7 @@ ul {
     fill: #4d5ae5;
 }
 .comment {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 .text-area-comment {
     width: 100%;
@@ -611,4 +611,21 @@ ul {
 }
 .text-area-comment:focus {
     border-color: #4d5ae5;
+}
+.checkbox-label {
+    font-size: 12px;
+    line-height: 1.17em;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+.checkbox-span {
+    display: inline-flex;
+    align-items: center;
+    fill: transparent;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
