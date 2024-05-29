@@ -422,8 +422,8 @@
             <div class="subscribe">
                 <p class="subscribe-p">Subscribe</p>
                 <form class="footer-form">
-                    <label for="email" class="footer-label">
-                        <input type="email" name="email" placeholder="E-mail" class="footer-input" />
+                    <label for="email-first" class="footer-label">
+                        <input type="email" id="email-first" name="email" placeholder="E-mail" class="footer-input" />
                     </label>
                     <button type="submit" class="footer-button">
                         Subscribe
@@ -443,7 +443,7 @@
                 </svg>
             </button>
             <p class="modal-p">Leave your contacts and we will call you back</p>
-            <form action="">
+            <form action="send">
                 <div class="modal-form">
                     <label for="user-name" class="modal-label">Name</label>
                     <div class="form-div">
@@ -479,12 +479,13 @@
                 <div class="checkbox">
                     <input id="user-privacy" name="user-privacy" type="checkbox" value="true"
                         class="checkbox-box visually-hidden">
-                    <label for="user-privacy" class="checkbox-label">I accept the terms and conditions of the
-                        <span class="checkbox-span">
-                            <svg class="icon-user-name" width="10" height="8">
-                                <use href="./images/icons.svg#icon-email"></use>
-                            </svg>
+                    <span class="checkbox-span">
+                        <svg class="icon-user-name" width="10" height="8">
+                            <use href="./images/icons.svg#icon-person"></use>
+                        </svg>
                         </span>
+                    <label for="user-privacy" class="checkbox-label">I accept the terms and conditions of the
+                        
                         <a href="#" class="checkbox-link">Privacy Policy</a>
                     </label>
                 </div>

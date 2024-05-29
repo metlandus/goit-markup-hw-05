@@ -431,7 +431,10 @@ ul {
 .footer-container-flex {
     display: flex;
     align-items: baseline;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
+}
+.subscribe {
+    margin-left: 3em;
 }
 .subscribe-p {
     margin-bottom: 16px;
@@ -452,7 +455,7 @@ ul {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    filter: box-shadow 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background-color: transparent;
     padding-left: 16px;
@@ -639,6 +642,7 @@ ul {
 }
 .checkbox-link {
     color: #4d5ae5;
+    text-decoration: underline;
 }
 .modal-button-submit {
     display: block;
